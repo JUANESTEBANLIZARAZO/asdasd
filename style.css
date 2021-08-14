@@ -1,0 +1,283 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+}
+
+#nav #menu {
+    display: flex;
+    align-items: center;
+}
+
+#nav #menu ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#nav #menu ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+#nav #menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24;
+    transition: .4s;
+    border-bottom: 2px solid transparent;
+}
+
+#nav #menu ul li a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+#logo a img {
+    transition: .4s;
+}
+
+#logo a img:hover {
+    transform: translate(20px);
+}
+
+header #info-header img {
+    transition: 4s;
+}
+
+header #info-header img:hover {
+    transform: rotate(360deg);
+}
+
+header {
+    background: url(../img/bg-header.png);
+    padding-bottom: 80px;
+    background-repeat: none;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+
+header #info-header {
+    text-align: center;
+    margin-top: 150px;
+}
+
+header #info-header h2 {
+    color: #e8f00c;
+    font-size: 46px;
+    margin: 0;
+}
+
+header #info-header button {
+    margin-top: 60px;
+    background: #e8f00c;
+    font-size: 28px;
+    color: #999;
+    padding: 10px 14px;
+    border-radius: 8%;
+    cursor: pointer;
+}
+
+header #info-header p {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+}
+
+#planes {
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+#destinos {
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+#contacto {
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+#planes {
+    width: 100%;
+    position: relative;
+    display: block;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#planes h2 {
+    font-size: 50px;
+}
+
+#planes .row {
+    margin: 60px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#planes .row .cart-plan {
+    position: relative;
+    transition: .4s;
+}
+
+#planes .row .cart-plan img {
+    height: 200px;
+}
+
+#planes .row .cart-plan h3 {
+    position: absolute;
+    top: 95px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #e8f00c
+}
+
+#planes .row .cart-plan img {
+    transition: .4s;
+}
+
+#planes .row .cart-plan:hover img {
+    border-radius: 50%;
+}
+
+#destinos {
+    text-align: center;
+    background: url(../img/bg-destinos.png);
+    background-repeat: none;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+
+#destinos h4 {
+    color: #e8f00c;
+    padding-top: 130px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.destinos-container {
+    display: flex;
+    margin: 20px;
+    padding-top: 5px;
+    justify-content: space-evenly;
+    padding-bottom: 20px
+}
+
+#destinos-4:hover img {
+    scale: (1.04);
+    height: 220px;
+}
+
+#destinos-4:hover p {
+    font-size: 28px;
+}
+
+#destinos-4 img {
+    height: 200px;
+    transition: .4s;
+}
+
+#destinos-4 {
+    height: 270px;
+    transition: .4s;
+    display: block;
+}
+
+.destinos-container p {
+    color: #fff;
+    margin: 15px;
+    font-size: 25px;
+    width: 310px;
+    transition: .4s;
+}
+
+#contacto {
+    margin-top: -40px;
+    text-align: center;
+    background: #e8f00c;
+}
+
+#contacto-container {
+    padding: 20px
+}
+
+#contacto-container #input-contacto input {
+    width: 200px;
+    border: #666;
+    margin-right: 15px
+}
+
+#contacto-container #input-contacto select {
+    width: 204px;
+    border: #666;
+    margin-right: 15px
+}
+
+#texto-contacto h5 {
+    font-size: 24px;
+    font-weight: 900;
+    padding-top: 50px;
+}
+
+#texto-contacto p {
+    font-weight: 300px;
+    width: 500px;
+    margin: auto;
+}
+
+#contacto-container>input {
+    background: #777;
+    opacity: .6;
+    margin: 15px;
+    margin-bottom: 50px;
+    color: #fff;
+    padding: 2px 15px;
+}
+
+#placeholder-contacto {
+    background: #777;
+}
+
+#footer {
+    margin-top: -35px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+
+#footer p {
+    margin-top: 18px;
+    padding: 20px;
+    font-size: 10px;
+}
+
+#footer b {
+    display: flex;
+    margin-top: 10px;
+    font-size: 14px;
+    justify-content: center;
+}
